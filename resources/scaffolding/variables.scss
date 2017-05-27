@@ -1,0 +1,40 @@
+$breakpoint-mobile: (420em / 16);
+$breakpoint-tablet-small: (640em / 16);
+$breakpoint-tablet-large: (768em / 16);
+$breakpoint-desktop-small: (960em / 16);
+$breakpoint-desktop: (1280em / 16);
+$breakpoint-desktop-large: (1440em / 16);
+$breakpoint-desktop-hude: (1600em / 16);
+
+$padding-small: 1.5rem;
+$padding-medium: 2.5rem;
+$padding-large: 5rem;
+
+$padding-map: (
+    0: $padding-small,
+    $breakpoint-tablet-small: $padding-medium,
+    $breakpoint-desktop-small: $padding-large,
+);
+
+$page-max-width: (1280em / 16);
+
+$border-radius: 4px;
+
+$box-shadow: 0 1px 5px rgba($body-color, .5);
+$box-shadow--lighter: 1px 1px 3px rgba($body-color, .1);
+
+$text-shadow: -1px 1px 0 rgba($body-color, .5);
+
+$basic-ease: .4s ease;
+
+@mixin font-base {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+
+@mixin font-base--bold {
+    // todo
+}
+
+@mixin font-supplementary {
+    // todo
+}
