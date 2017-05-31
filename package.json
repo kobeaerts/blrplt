@@ -17,7 +17,7 @@
     "babel-preset-babili": "^0.1.2",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
-    "css-loader": "^0.28.3",
+    "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-loader": "^1.7.1",
