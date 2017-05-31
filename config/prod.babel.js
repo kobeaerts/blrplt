@@ -34,9 +34,7 @@ export default {
                                     rucksack({
                                         fallbacks: true
                                     }),
-                                    autoprefixer({
-                                        browsers: ['> 0.5% in BE', 'last 10 versions', 'not ie <= 10'],
-                                    }),
+                                    autoprefixer(),
                                 ]),
                             },
                         },
