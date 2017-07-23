@@ -13,7 +13,6 @@
         "function-linear-gradient-no-nonstandard-direction": true,
         "function-max-empty-lines": 0,
         "function-name-case": "lower",
-        "function-url-data-uris": "never",
         "function-url-quotes": "always",
         "function-whitespace-after": "always",
 
@@ -52,7 +51,6 @@
         "selector-descendant-combinator-no-non-space": true,
         "selector-max-compound-selectors": 4,
         "selector-max-specificity": "0,3,3",
-        "selector-no-id": true,
         "selector-no-qualifying-type": [
             true,
             { "ignore": "attribute" }
