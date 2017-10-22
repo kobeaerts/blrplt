@@ -29,9 +29,10 @@ export default {
             {
                 enforce: 'pre',
                 test: /\.jsx?/,
-                use: [
-                    'eslint-loader',
-                ],
+                loader: 'eslint-loader',
+                options: {
+                    fix: true,
+                },
             },
             {
                 test: /\.s?css$/,
