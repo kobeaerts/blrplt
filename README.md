@@ -21,4 +21,4 @@ It even has some lovely opinionated stylelint config
 5. Your entrypoint files will be compiled to `public/resources`
 6. Reference your generated `[bundle].js` and `[bundle].css` files in your html files in the public folder
 7. Visit your hotreloading site at `localhost:8080`
-8. run `yarn run prod` or `npm run prod` to get your optized css or Javascript files.
+8. run `yarn run build` or `npm run build` to get your optized css or Javascript files.
