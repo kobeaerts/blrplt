@@ -6,9 +6,10 @@ $breakpoint-desktop: (1280em / 16);
 $breakpoint-desktop-large: (1440em / 16);
 $breakpoint-desktop-hude: (1600em / 16);
 
-$padding-small: 1.5rem;
-$padding-medium: 2.5rem;
-$padding-large: 5rem;
+$padding-mini: 1rem;
+$padding-small: 2rem;
+$padding-medium: 4rem;
+$padding-large: 8rem;
 
 $padding-map: (
     0: $padding-small,
