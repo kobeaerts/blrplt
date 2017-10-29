@@ -29,10 +29,12 @@ $basic-ease: .4s ease;
 
 @mixin font-base {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    font-weight: 400;
 }
 
 @mixin font-base--bold {
-    // todo
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+    font-weight: 600;
 }
 
 @mixin font-supplementary {
