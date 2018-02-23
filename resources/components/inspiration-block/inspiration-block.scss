@@ -1,0 +1,95 @@
+@import "scaffolding/index";
+
+$menu-width: 30rem;
+
+.inspiration-block {
+    display: flex;
+    flex-direction: row;
+
+    max-width: 1280px;
+
+    margin: 0 auto;
+
+    &__menu {
+        width: $menu-width;
+
+        padding-right: $padding-medium;
+    }
+
+    &__menu-sticky {
+        position: sticky;
+        top: $padding-small;
+
+        margin-top: 5rem;
+    }
+
+    &__menu-item {
+        @include font-supplementary;
+
+        position: relative;
+
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+
+        width: 100%;
+
+        padding: 1rem 0;
+
+        font-size: 1.6rem;
+        font-weight: 700;
+
+        text-decoration: none;
+        text-transform: none;
+
+        border: none;
+
+        cursor: pointer;
+
+        img {
+            display: block;
+            width: 1.5em; height: auto;
+
+            margin-right: 1rem;
+        }
+
+        &:focus,
+        &:hover {
+            outline: none;
+        }
+
+        &.is-active {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        & + & {
+            border-top: 1px dotted currentColor;
+        }
+    }
+
+    &__items {
+        width: calc(100% - #{$menu-width});
+    }
+}
+
+.inspiration-block-item {
+    min-height: 40vh;
+
+    &__title {
+        display: block;
+        height: 5rem;
+
+        padding-top: 1rem;
+
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    & + & {
+        margin-top: $padding-medium;
+    }
+}
+
+

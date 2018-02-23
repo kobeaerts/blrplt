@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "popmotion": "^8.1.10",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

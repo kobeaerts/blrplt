@@ -39,5 +39,10 @@ $basic-ease: .4s ease;
 }
 
 @mixin font-supplementary {
-    // todo
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    line-height: 1;
 }

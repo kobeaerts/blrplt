@@ -1,0 +1,58 @@
+@import "scaffolding/index";
+
+.immersive-recipe-teaser {
+    position: relative;
+
+    overflow: hidden;
+
+    background-size: cover;
+    background-position: center;
+
+    color: #ffffff;
+
+    border-radius: $border-radius;
+
+    box-shadow: $box-shadow;
+
+    &::before {
+        content: "";
+
+        position: absolute;
+        left: 0; top: 0; right: 0; bottom: 0;
+
+        background: linear-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, .25) 70%, rgba(0, 0, 0, .65));
+    }
+
+    &::after {
+        content: "";
+
+        display: block;
+        padding-top: 125%;
+    }
+
+    &__content {
+        position: absolute;
+        left: 0; right: 0; bottom: 0;
+
+        padding: $padding-small;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+    }
+
+    &__metadata {
+        @include font-base--bold;
+
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+
+        margin-top: 1rem;
+
+        font-size: 1.2rem;
+
+        opacity: .85;
+    }
+}

@@ -4,3 +4,5 @@ import 'whatwg-fetch';
 import 'sanitize.css';
 
 import 'base';
+
+import 'playground';
